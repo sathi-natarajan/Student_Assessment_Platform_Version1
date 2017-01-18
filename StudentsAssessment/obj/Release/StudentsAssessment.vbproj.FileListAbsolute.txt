@@ -1,0 +1,19 @@
+E:\Programming\Student_assessment_platform\StudentsAssessment\StudentsAssessment\bin\StudentsAssessment.dll.config
+E:\Programming\Student_assessment_platform\StudentsAssessment\StudentsAssessment\bin\StudentsAssessment.dll
+E:\Programming\Student_assessment_platform\StudentsAssessment\StudentsAssessment\bin\StudentsAssessment.pdb
+E:\Programming\Student_assessment_platform\StudentsAssessment\StudentsAssessment\bin\StudentsAssessment.xml
+E:\Programming\Student_assessment_platform\StudentsAssessment\StudentsAssessment\obj\Release\StudentsAssessment.Resources.resources
+E:\Programming\Student_assessment_platform\StudentsAssessment\StudentsAssessment\obj\Release\StudentsAssessment.vbproj.GenerateResource.Cache
+E:\Programming\Student_assessment_platform\StudentsAssessment\StudentsAssessment\obj\Release\StudentsAssessment.dll
+E:\Programming\Student_assessment_platform\StudentsAssessment\StudentsAssessment\obj\Release\StudentsAssessment.xml
+E:\Programming\Student_assessment_platform\StudentsAssessment\StudentsAssessment\obj\Release\StudentsAssessment.pdb
+E:\Programming\Student_assessment_platform\StudentsAssessment\StudentsAssessment\obj\Release\StudentsAssessment.vbprojResolveAssemblyReference.cache
+E:\Programming\Student_assessment_platform\Version 1\StudentsAssessment\StudentsAssessment\bin\StudentsAssessment.dll.config
+E:\Programming\Student_assessment_platform\Version 1\StudentsAssessment\StudentsAssessment\bin\StudentsAssessment.dll
+E:\Programming\Student_assessment_platform\Version 1\StudentsAssessment\StudentsAssessment\bin\StudentsAssessment.pdb
+E:\Programming\Student_assessment_platform\Version 1\StudentsAssessment\StudentsAssessment\bin\StudentsAssessment.xml
+E:\Programming\Student_assessment_platform\Version 1\StudentsAssessment\StudentsAssessment\obj\Release\StudentsAssessment.Resources.resources
+E:\Programming\Student_assessment_platform\Version 1\StudentsAssessment\StudentsAssessment\obj\Release\StudentsAssessment.vbproj.GenerateResource.Cache
+E:\Programming\Student_assessment_platform\Version 1\StudentsAssessment\StudentsAssessment\obj\Release\StudentsAssessment.dll
+E:\Programming\Student_assessment_platform\Version 1\StudentsAssessment\StudentsAssessment\obj\Release\StudentsAssessment.xml
+E:\Programming\Student_assessment_platform\Version 1\StudentsAssessment\StudentsAssessment\obj\Release\StudentsAssessment.pdb

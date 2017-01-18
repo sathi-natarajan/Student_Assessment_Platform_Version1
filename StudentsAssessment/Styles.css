@@ -1,0 +1,307 @@
+﻿/*START - Styles for whole web application*/
+body{
+    margin:0;
+}
+
+/*The area where you have sections on the page*/
+#Content{
+    margin-left:100px;
+    margin-top:100px;
+    margin-right:100px;
+    /*background-color:#b4be99;*/
+}
+h1,h3{
+    text-align:center;
+    letter-spacing:5px;
+}
+/*Area on a page where messages such as error messages and other status messages are displayed to user*/
+.Statusarea
+{
+    font-size:15px;
+    font-weight:bold;
+    color:#b200ff;
+}
+
+/*********************************************************************************************************/
+
+/*SiteHeader.ascx - Header for website*/
+#divHeader{
+    background-color:#bbd775;
+    margin-top:-1.5em;
+}
+
+/*SiteFooter.ascx - Footer for website*/
+#divFooter{
+    background-color:#bbd775;
+    height:3em;
+    text-align:center;
+    font-weight:bold;
+    font-style:italic;
+    margin-top:90%;
+}
+
+#divConstructionMsg{
+    border:2px solid #b69f9f;
+    border-radius:2%; /*CSS3 feature - Serves to create round corner*/
+    width:800px;
+    height:300px;
+    margin-left:200px;
+    font-size:20px;
+    font-weight:bold;
+    padding-top:150px;
+    padding-left:50px;
+}
+    
+/*END - Styles for whole web application*/
+
+/*********************************************************************************************************/
+
+/*START - TeachersLogin.aspx - Teachers log-in page*/
+#tblLogin{
+    width:300px;
+    margin-top:20px;
+}
+
+#tblLogin_heading{
+    height:25px;background-color:mediumpurple;color:white;margin-top:-20px;
+    width:400px; /*Same width as for #tblLogin*/
+}
+
+#tblLogin_boxaround{
+    border:2px solid #b69f9f;
+    width:400px;
+    height:200px;
+    margin-left:35%; /*moves WHOLE BOX on the page HORIZONTALLY*/
+    border-radius:2%; /*CSS3 feature - Serves to create round corner*/
+}
+
+/*START: Teachers/Admin login screen
+.Loginpanel
+{
+    width:400px;
+    margin-left:25%;
+}*/
+/*END: Teachers/Admin login screen*/
+
+/*To-do
+    Make login table controls widths adjustable from here - currently inline width specified*/
+
+/*END - TeachersLogin.aspx - Teachers log-in page*/
+
+/*********************************************************************************************************/
+
+/*START - default.aspx - RHS dynamic area*/
+#divMainDashboard{
+	background:gray;
+    width:450px;
+	height:250px;
+    border-radius:2%; /*CSS3 feature - Serves to create round corner*/
+    border:2px solid #b69f9f;
+}
+	
+#divMainDashboard_heading{
+    height:35px;background-color:mediumpurple;text-align:center;border:solid 2px white;
+}
+	
+#divAnnouncement1{
+	background:gray;
+    height:250px;
+    border-radius:2%; /*CSS3 feature - Serves to create round corner*/
+    border:2px solid #b69f9f;
+    width: 200px; 
+}
+
+#divAnnouncement1_heading{
+    height:35px;background-color:mediumpurple;text-align:center;border:solid 2px white;
+}
+	
+#divAnnouncement2{
+	background:gray;
+    height:250px;
+    border-radius:2%; /*CSS3 feature - Serves to create round corner*/
+    border:2px solid #b69f9f;
+    width: 200px; 
+}
+
+#divAnnouncement2_heading{
+    height:35px;background-color:mediumpurple;text-align:center;border:solid 2px white;
+}
+/*The whole table housing the dashboard and the two announcement areas*/
+#tblDynamicInfo{
+    width:100px;
+    margin-left:450px;
+    margin-top:-450px;
+}
+
+/*div scrollbar*/
+#divDashboardC,#divAnnouncement1C,#divAnnouncement2C{
+    overflow-y:auto; /*Auto makes it appear only when overflowing of text occurs in the area*/
+    height:220px;
+}
+/*END - default.aspx - RHS dynamic area*/
+
+/*********************************************************************************************************/
+
+/*START- TeachersLoggedinPanel.ascx*/
+#divTeachersLoginInfo,#divAdminsLogin{
+		/*background-color:lightgray;*/
+        margin-top:-75px;
+		margin-left:65%;
+        width:300px;
+        top:-10px;
+}
+
+#divLoggedinPanel{
+    margin-left:30%; /*Same as for divTeachersLoginInfo */
+}
+#divNotLoggedIn1
+{
+    margin-left:30%; /*Same as for divTeachersLoginInfo */
+    width:350px;
+}
+
+#divTeachersInfo table
+{
+	width:350px; /*Same width as divTeachersInfo*/
+}
+#divTeachersInfo table tr td
+{
+	background-color:black;
+	color:#fff;
+	width:10px;
+}
+/*END- TeachersLoggedinPanel.ascx*/
+
+/*********************************************************************************************************/
+
+/*START- MainLinkscontrol.ascx*/
+#divMainLinksControl{
+	background:lightgray;
+	height:300px;
+	width:175px;
+		
+}
+/*END- MainLinkscontrol.ascx*/
+
+/*********************************************************************************************************/
+
+/*START- MainLinkscontrol.ascx*/
+#divTeachersSidePanel{
+	background:lightgray;
+	height:400px;
+	width:185px;
+	margin-left:200px;
+	margin-top:-250px;
+}
+/*END- MainLinkscontrol.ascx*/
+	
+/*********************************************************************************************************/
+
+
+/*START: TeacherProfile.aspx - Teachers Profile Page*/
+
+/*The textboxes inside the profile table*/
+.ProfileTextboxes{
+    width:400px;
+}
+
+#PnlTeacherProfile{
+    height:1000px;
+}
+.pnlAdminProfile{
+    margin-left:650px;
+    width:300px;
+    height:500px;
+    margin-top:-650px;
+    background-color:Gray;
+    color:white;
+    text-align:center;
+}
+
+/*Area listing teachers in the admin panel*/
+#divTeacherProfileHolder
+{
+   padding-top:10px;
+}
+#LoadTeacherProfileButton{
+    margin-top:-100px;
+    background:#fff;
+}
+/*END: TeacherProfile.aspx - Teachers Profile Page*/
+
+/*********************************************************************************************************/
+
+/*START: TeacherClasses.aspx - Teachers Classes Page*/
+.TeacherClassesPanel{
+    margin-left:50px;
+    width:500px;
+    margin-top:-50px;
+}
+
+.TClassesStudentsPanel{
+   margin-left:600px;
+    width:350px;
+    margin-top:-200px;
+}
+
+#tblTeacherClass
+{
+    width:400px;
+}
+
+#divListStudents
+{
+    width:200px;
+    background-color:dimgray;
+}
+
+/*Only the gray colored part of "Students Already taught by" list*/
+#divListStudentsAlreadyTaughtBy
+{
+    width:350px;
+    background-color:dimgray;
+    margin-top:-16px;
+}
+
+/*Only the gray colored part of the admin panel*/
+#divListOfTeachersinAdminPanel{
+    width:300px;
+    background-color:dimgray;
+}
+
+#divListClassesTaught_TeacherClass{
+    width:300px;
+    background-color:dimgray;
+}
+
+#divListClassesTaught_TeacherSubject
+{
+    width:300px;
+    background-color:dimgray;
+}
+
+#divListStudentsTaught{
+    width:300px;
+    background-color:lightgray;
+}
+
+#divListSubjects
+{
+    width:300px;
+    background-color:dimgray;
+}
+
+/*Only the gray colored part of "Subjects Already taught by" list*/
+#divListSSubjectsAlreadyTaughtBy
+{
+    width:300px;
+    background-color:dimgray;
+    margin-top:-16px;
+}
+
+
+
+
+/*END: TeacherClasses.aspx - Teachers Classes Page*/
+
+
